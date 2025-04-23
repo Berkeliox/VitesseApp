@@ -29,9 +29,22 @@
 		19AB3C972DB8E368000C1D70 /* VitesseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitesseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		19AB3CD72DB92175000C1D70 /* Exceptions for "Vitesse" folder in "Vitesse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/CandidateAPI,
+			);
+			target = 19AB3C7C2DB8E366000C1D70 /* Vitesse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		19AB3C7F2DB8E366000C1D70 /* Vitesse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				19AB3CD72DB92175000C1D70 /* Exceptions for "Vitesse" folder in "Vitesse" target */,
+			);
 			path = Vitesse;
 			sourceTree = "<group>";
 		};
